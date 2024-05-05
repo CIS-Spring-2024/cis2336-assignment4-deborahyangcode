@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <! This portion shows the title,character set and links to the js and css files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <script src="Menu.js" defer></script> 
+    <script src="items.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>University of Houston Sugarland Ellis Dining Hall</h1>
+        <! will appear as the the browsers title tab-->
+    </header>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="Menu.html" class="active">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+        <! will show the different pages of this site -->
+    </div>
+    <figure> <!--home section photo --!>
+        <img src="image/Ellis Dining Hall.jpg" height="500" width "400" ="Ellis">
+        <! will appear above the menu selection-->
+      </figure>
+      <div class="container">
+      <main>
+        <section id="breakfast">
+            <h2>Breakfast Options</h2>
+        </section>
+    
+        <section id="lunch">
+            <h2>Lunch Options</h2>
+        </section>
+    
+        <section id="dinner">
+            <h2>Dinner Options</h2>
+        </section>
+    </main>
+    <div class="menu-selection">
+      <a href="#breakfast">Breakfast</a>
+      <a href="#lunch">Lunch</a>
+      <a href="#dinner">Dinner</a>
+      <! I wanted the user to only see what they want so they can click on one of these options and see whats available-->
+    </div>
+    <aside id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+        </ul>
+        <p id="total-price">Total: $0.00</p>
+        <button onclick="calculatetotal()" class="pill">Pay Now</button>
+        <! The cart feature allows the items to be added, counted and see the total cost of all thats in the cart -->
+    </aside>
+
+</body>
+</html>

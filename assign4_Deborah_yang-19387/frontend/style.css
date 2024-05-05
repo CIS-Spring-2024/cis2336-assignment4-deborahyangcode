@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    color: #333131;
+    background-color: #fff;
+    text-align: center;
+}
+
+header {
+    background: #333131;
+    color: firebrick;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+figure {
+    margin: 10px 0;
+}
+
+figcaption {
+    font-style: oblique;
+    text-align: left;
+}
+
+details {
+    background-color: darkseagreen;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+a:hover {
+    color: #22c61d;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 19px;
+}
+
+.topnav a:hover {
+    background-color: rgb(119, 119, 111);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #333;
+    color: crimson;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+}
+
+.content {
+    flex: 1;
+    text-align: justify;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(0, 0, 34);
+    color: #fff;
+}

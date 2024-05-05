@@ -1,0 +1,76 @@
+
+h2 {
+    color: rgb(21, 21, 20);
+}
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    float: left;
+    margin-right: 20px; 
+  }
+.item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 200px;
+    height: 150px;
+}
+
+#cart {
+    background-color: #790415;
+    padding: 20px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    overflow-y: auto;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(240, 241, 237);
+}
+.hover-move {
+    transition: transform 0.3s ease;
+}
+
+.hover-move:hover {
+    transform: translateY(-20px);
+}
+section#breakfast, section#lunch, section#dinner {
+    max-height: 0;
+    overflow:auto;
+    transition: max-height 0.5s ease-out;
+}
+
+section#breakfast:target, section#lunch:target, section#dinner:target {
+    max-height: 900px;
+}
+.menu-selection {
+    position: fixed;
+    top: 90%;
+    left: 45%;
+}
+  .pill {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: blue;
+    outline: none;
+    background:burlywood;
+    cursor: [pointer];
+
+  }
+.pill:hover {
+    background: #e01616;
+}
+

@@ -1,0 +1,57 @@
+const menu = {
+    "breakfast": [
+      {
+        "name": "Waffles",
+        "price": 6.99,
+      },
+      {
+        "name": "Omelette",
+        "price": 6.99,
+      },
+      {
+        "name": "Breakfast Plate",
+        "price": 9.99,
+      },
+      {
+        "name": "Vegan Breakfast Burrito",
+        "price": 7.99,
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Chicken Tenders",
+        "price": 7.99,
+      },
+      {
+        "name": "Cheeseburger",
+        "price": 7.99,
+      },
+      {
+        "name": "Slice of Pizza",
+        "price": 2.99,
+      },
+      {
+        "name": "Ceaser Chicken Salad",
+        "price": 7.99,
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Baked Potato Soup",
+        "price": 5.99,
+      },
+      {
+        "name": "Barbecue Chicken",
+        "price": 9.99,
+      },
+      {
+        "name": "Spaghetti",
+        "price": 8.99,
+      },
+      {
+        "name": "Salmon",
+        "price": 11.99,
+      }
+    ]
+  };
+  
