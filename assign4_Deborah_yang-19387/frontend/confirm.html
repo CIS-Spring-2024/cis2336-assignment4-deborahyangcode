@@ -16,6 +16,7 @@
             <a href="about.html">About Us</a>
         </div>
     </header>
+    <p>Total Price: <span id="total-price"></span></p>
 
     <div class="container">
 
@@ -48,13 +49,13 @@
             const urlParams = new URLSearchParams(window.location.search);
             const total = urlParams.get('total');
 
-            // Display the total
             document.getElementById('total').textContent = '$' + parseFloat(total).toFixed(2);
         });
 
         document.getElementById('credit-card-form').addEventListener('submit', function(event) {
             event.preventDefault();
             alert('Thank you. Please come again.');
+
         });
     </script>
 </body>
